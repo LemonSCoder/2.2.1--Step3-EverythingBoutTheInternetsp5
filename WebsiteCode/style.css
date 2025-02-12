@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    flex-grow: 1;
+    overflow: scroll;
+    background-color: black;
+    color: white;
+  }
+
+  h1 {
+    font-size: 50pt;
+  }
+  h2 {
+    line-height: 0.5pt;
+  }
+  
+  body {
+    padding: 30pt;
+    cursor: url(), url(), auto;
+  }
+  p {
+    font-weight: lighter;
+    text-indent: 25pt;
+    font-size: 10pt;
+    line-height: 1.50;
+  }
+  nav {
+    text-align: left;
+    background-color: powderblue;
+    padding: 20pt;
+    width: 100%;
+    border: teal;
+    color: black;
+  }
+  .img1 { background-image: url("smile.png"); }
+  table, th, tr, td{
+    text-align: center;
+    width: 100%;
+    border: 1pt solid #3c4748;
+  }
+  button {
+    background-color: #273b40;
+    opacity: 100%;
+    border-radius: 5pt;
+    font-size: 20pt;
+    border-color: transparent;
+  }
+  a[href] {
+    color: #208c8c;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #cae9ea;
+    text-decoration: none;
+  }
+  a:visited {
+    color: violet;
+    text-decoration: none;
+  }
+  .border {
+    border-radius: 15pt;
+  }
+  .folder {
+    position: sticky;
+  }
+  .container {
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+  }
+  .animationTwo {
+    background-color: #273b40;
+    scale: 1;
+    transition: 1s;
+  }
+  .animationTwo:hover {scale: 1.05;}
