@@ -7,9 +7,8 @@ html {
     justify-content: center;
     flex-grow: 1;
     overflow: scroll;
-    background-color: white;
-    color: black;
-    line-height: 50.0pt;
+    background-color: black;
+    color: white;
   }
 
   h1 {
@@ -17,10 +16,8 @@ html {
   }
   h2 {
     line-height: 0.5pt;
-  }
-
-  h3 {
-    font-size: 16pt;
+    text-align: center;
+    margin-left: 35px;
   }
   
   body {
@@ -39,13 +36,20 @@ html {
     padding: 20pt;
     width: 100%;
     border: teal;
+    color: black;
+  }
+  .img1 { background-image: url("smile.png"); }
+  table, th, tr, td{
+    text-align: center;
+    width: 100%;
+    border: 1pt solid #3c4748;
   }
   button {
-    background-color: powderblue;
-    border-color: powderblue;
+    background-color: #273b40;
     opacity: 100%;
     border-radius: 5pt;
     font-size: 20pt;
+    border-color: transparent;
   }
   a[href] {
     color: #208c8c;
@@ -76,14 +80,3 @@ html {
     transition: 1s;
   }
   .animationTwo:hover {scale: 1.05;}
-  ul {
-    font-size: 20pt;
-    text-align: left;
-    color: black;
-  }
-  ol {
-    font-size: 20pt;
-    text-align: left;
-    color: black;
-
-  }
