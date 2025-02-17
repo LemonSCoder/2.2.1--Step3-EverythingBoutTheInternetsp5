@@ -12,7 +12,32 @@ html {
     line-height: 50.0pt;
     overflow:scroll;
   }
-
+  nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .fa {
+    padding: 5pt;
+    width: 20pt;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  .fa-facebook {
+    background: #1877F2;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #0072b1;
+    color: white;
+  }
   h1 {
     font-size: 50pt;
   }
@@ -90,6 +115,31 @@ html {
   }
   table, th, td {
     border: 1px solid;
-    width: 50%;
+    width: 75%;
     background-color: powderblue;
+  }
+  div {
+    flex-wrap: nowrap;
+    position:initial;
+  }
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10pt;
+    width: 40%;
+  }
+  .column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    color: powderblue;
+  }
+  .divider {
+    border-top: 10px solid powderblue;
+    width:100%;
   }
